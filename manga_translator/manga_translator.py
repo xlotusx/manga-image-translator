@@ -678,6 +678,7 @@ class MangaTranslatorWeb(MangaTranslator):
             try:
                 get_translator(key)
                 available_translators.append(key)
+                break
             except MissingAPIKeyException:
                 pass
 

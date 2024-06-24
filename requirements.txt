@@ -47,3 +47,5 @@ langcodes
 langdetect
 manga-ocr
 pydensecrf@https://github.com/lucasb-eyer/pydensecrf/archive/refs/heads/master.zip
+urllib3==v1.26.15
+numpy==1.26.4
